@@ -1,12 +1,13 @@
 package com.company;
 
-public   class Sequoia extends Trees implements Printable {
+public   class Sequoia extends Trees {
     private int age;
     private int weight;
-    public Sequoia(int age, int weight){
-        this.age=age;
-        this.weight=weight;
 
+    public Sequoia(String name, int age, int weight) {
+        super(name);
+        this.age = age;
+        this.weight = weight;
     }
 
     public int getAge() {

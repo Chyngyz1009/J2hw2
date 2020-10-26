@@ -1,10 +1,23 @@
 package com.company;
 
-public class Trees {
+public class Trees implements Printable{
+    public String name;
 
-    public int age;
-    public int height;
+    public Trees(String name) {
+        this.name = name;
+    }
 
+    public String getName() {
+        return name;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
 
+    @Override
+    public String voidPrint() {
+        return "name"+ name;
+
+    }
 }

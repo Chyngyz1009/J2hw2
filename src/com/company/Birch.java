@@ -1,13 +1,13 @@
 package com.company;
 
-public  class  Birch extends Trees implements Printable{
+public  class  Birch extends Trees {
     private int age;
     private int height;
 
-    public Birch (int age, int height){
-        this.age=age;
-        this.height=height;
-
+    public Birch(String name, int age, int height) {
+        super(name);
+        this.age = age;
+        this.height = height;
     }
 
     public int getAge() {

@@ -1,14 +1,13 @@
 package com.company;
 
-public  class Poplar extends Trees implements Printable {
+public  class Poplar extends Trees {
     private String color;
     private int height;
 
-    public Poplar(String color,int height){
-        this.color=color;
-        this.height=height;
-
-
+    public Poplar(String name, String color, int height) {
+        super(name);
+        this.color = color;
+        this.height = height;
     }
 
     public String getColor() {

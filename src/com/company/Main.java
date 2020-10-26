@@ -13,13 +13,13 @@ public class Main {
         Printable print = null;
         switch (className) {
             case "1":
-                print = new Birch(20, 7);
+                print = new Birch( "Bir ",20, 7);
                 break;
             case "2":
-                print = new Sequoia(150, 1000);
+                print = new Sequoia("Seq ",150, 1000);
                 break;
             case "3":
-                print = new Poplar("white", 56);
+                print = new Poplar("Pop ","white", 56);
                 break;
         }
         return print;
