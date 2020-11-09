@@ -1,6 +1,6 @@
 package com.company;
 
-public  class  Birch extends Trees {
+public class Birch extends Trees {
     private int age;
     private int height;
 
@@ -20,6 +20,6 @@ public  class  Birch extends Trees {
 
     @Override
     public String voidPrint() {
-        return "age: "+ getAge()+"\nheight: "+getHeight();
+        return super.voidPrint() + "age: " + getAge() + "\nheight: " + getHeight();
     }
 }

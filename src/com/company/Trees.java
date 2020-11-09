@@ -18,6 +18,5 @@ public class Trees implements Printable{
     @Override
     public String voidPrint() {
         return "name"+ name;
-
     }
 }

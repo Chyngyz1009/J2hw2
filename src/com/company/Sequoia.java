@@ -1,6 +1,6 @@
 package com.company;
 
-public   class Sequoia extends Trees {
+public class Sequoia extends Trees {
     private int age;
     private int weight;
 
@@ -17,9 +17,10 @@ public   class Sequoia extends Trees {
     public int getWeight() {
         return weight;
     }
+
     @Override
-     public String voidPrint(){
-        return "age: "+ getAge()+"\nweight: "+getWeight();
+    public String voidPrint() {
+        return super.voidPrint() + "age: " + getAge() + "\nweight: " + getWeight();
     }
 }
 

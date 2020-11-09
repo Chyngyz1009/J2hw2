@@ -1,6 +1,6 @@
 package com.company;
 
-public  class Poplar extends Trees {
+public class Poplar extends Trees {
     private String color;
     private int height;
 
@@ -20,6 +20,6 @@ public  class Poplar extends Trees {
 
     @Override
     public String voidPrint() {
-        return "color: "+ getColor()+"\nheight: "+getHeight();
+        return super.voidPrint() + "color: " + getColor() + "\nheight: " + getHeight();
     }
 }
